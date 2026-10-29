@@ -1,0 +1,85 @@
+{
+ "inputs": {
+  "planted.obs80": "01f721d0987538d59c80bb8dfdf54af2ce7a6771c5231015bb998b54513c8b4b"
+ },
+ "background": null,
+ "background_sha256": null,
+ "background_rows": 0,
+ "input_rows": 23270,
+ "input_detections": 23270,
+ "input_rows_outside_window": 0,
+ "input_rows_no_ground_station": 0,
+ "params": {
+  "bound": true
+ },
+ "t_end_jd": 2461342.342338,
+ "window_days": 30.0,
+ "procs": 4,
+ "linker": {
+  "__init__.py": "0417263478ccb24e",
+  "fastlane.py": "c72e06df2625c9e8",
+  "fit.py": "caa68809fe32bbee",
+  "geom.py": "9e82dc9d08668adc",
+  "grid.py": "a82b124dd62a31ca",
+  "kepler.py": "110597a47080219a",
+  "linker.py": "1b11c2c9e3c5aa66",
+  "obs80.py": "be810f9773184f19"
+ },
+ "seconds": 3512.3,
+ "stats": {
+  "rows": 23257,
+  "tracklets": 6559,
+  "t_parse": 0.1,
+  "bound_hypotheses": 4581,
+  "spans": [
+   {
+    "days": 10.0,
+    "tracklets": 990,
+    "new_clusters": 17220,
+    "ref_mjd": [
+     61337.81,
+     61336.81
+    ]
+   },
+   {
+    "days": 30.0,
+    "tracklets": 6559,
+    "new_clusters": 1083550,
+    "ref_mjd": [
+     61337.81,
+     61326.83
+    ]
+   }
+  ],
+  "hypotheses": 6156,
+  "clusters": 1100770,
+  "t_grid": 372.4,
+  "prescreened": 884356,
+  "prescreened_bound": 504290,
+  "fast_tracklets": 4165,
+  "fast_pairs": 1558237,
+  "fast_pairs_coarse": 57075,
+  "fast_pairs_screened": 57075,
+  "fast_pair_fits_pooled": 57075,
+  "fast_fits": 7083,
+  "fast_candidates": 304,
+  "t_fast": 1414.7,
+  "skipped_inside_accepted": 860349,
+  "fitted": 884643,
+  "accepted": 23543,
+  "t_fit": 1627.6,
+  "links": 452,
+  "seconds": 3505.8,
+  "links_before_resolve": 452
+ },
+ "links": 441,
+ "links_with_input_rows": 441,
+ "links_provisional": 11,
+ "links_known": null,
+ "csv_stn": null,
+ "time_scale": "auto",
+ "pairing": "all",
+ "pair_cap": 12,
+ "pair_slow": 1.0,
+ "fast_lane_left_out": 0
+}

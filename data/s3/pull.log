@@ -1,0 +1,26 @@
+2026-10-28T21:16:02Z det_61311.5.csv 0 132.2
+2026-10-28T21:16:43Z ss_61311.5.csv 0 41.0
+2026-10-28T21:17:25Z obj_61311.5.csv 0 42.0
+2026-10-28T21:21:45Z det_61312.5.csv 1991 259.4
+2026-10-28T21:24:54Z ss_61312.5.csv 1644 189.4
+2026-10-28T21:25:35Z obj_61312.5.csv 1690 40.9
+2026-10-28T21:29:39Z det_61313.5.csv 3292 244.1
+2026-10-28T21:32:41Z ss_61313.5.csv 2858 181.6
+retry det_61314.5.csv 0 [Errno 104] Connection reset by peer
+2026-10-28T21:39:45Z det_61314.5.csv 19243 275.3
+2026-10-28T21:43:04Z ss_61314.5.csv 17201 198.9
+2026-10-28T21:47:33Z det_61319.5.csv 12454 269.2
+2026-10-28T21:50:22Z ss_61319.5.csv 11533 169.2
+retry det_61324.5.csv 0 Remote end closed connection without response
+2026-10-28T21:57:35Z det_61324.5.csv 9269 117.4
+2026-10-28T21:59:28Z ss_61324.5.csv 8286 113.1
+2026-10-28T22:03:48Z det_61329.5.csv 14944 260.5
+2026-10-28T22:06:57Z ss_61329.5.csv 14581 188.8
+2026-10-28T22:07:37Z det_61334.5.csv 0 39.7
+2026-10-28T22:08:16Z ss_61334.5.csv 0 39.7
+retry det_61339.5.csv 0 Remote end closed connection without response
+retry det_61339.5.csv 1 Remote end closed connection without response
+retry det_61339.5.csv 2 Remote end closed connection without response
+pull re-run 61339.5-61341.5 by day at 22:24:17
+retry det_61339.5.csv 0 Remote end closed connection without response
+pull stopped 22:34 UTC: 61339.5-61341.5 not read (5 tries at 5 days, 1 at 1 day, each dropped by the server)

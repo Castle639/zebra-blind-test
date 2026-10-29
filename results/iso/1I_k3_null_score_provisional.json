@@ -1,0 +1,194 @@
+{
+ "input": "1I_k3_null.obs80",
+ "links": 8,
+ "detections_not_in_input": 0,
+ "copies": 6,
+ "false": 2,
+ "false_by_nights": {
+  "3": 2
+ },
+ "false_provisional": 2,
+ "false_hyperbolic": 2,
+ "false_with_background": 0,
+ "per_link": [
+  {
+   "link": "Z00000",
+   "rows": 19,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 1.4950708584190142,
+   "q_fit_au": 1.2656667926185912,
+   "v_inf_kms": 18.628037337155476,
+   "rms_arcsec": 0.33673817677472,
+   "free_fit_chi2_dof": 0.37403808928015425,
+   "bound_fit_chi2_dof": 7.681140692122725,
+   "n_stations": 2,
+   "provisional": true,
+   "objects": [
+    "3539",
+    "6454"
+   ],
+   "offsets": [
+    3,
+    13
+   ],
+   "verdict": "false"
+  },
+  {
+   "link": "Z00003",
+   "rows": 15,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 36.40752351049732,
+   "q_fit_au": 0.8970973646209851,
+   "v_inf_kms": 187.12038256912626,
+   "rms_arcsec": 0.7408812273090867,
+   "free_fit_chi2_dof": 1.9059201145104803,
+   "bound_fit_chi2_dof": 17341.94438701413,
+   "n_stations": 2,
+   "provisional": true,
+   "objects": [
+    "2884"
+   ],
+   "offsets": [
+    8,
+    11
+   ],
+   "verdict": "false"
+  },
+  {
+   "link": "Z00006",
+   "rows": 14,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 2,
+   "e_fit": 0.5193076833754398,
+   "q_fit_au": 0.559249677315898,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.7515820960681524,
+   "free_fit_chi2_dof": 1.99703511611686,
+   "bound_fit_chi2_dof": 1.99703511611686,
+   "n_stations": 3,
+   "provisional": true,
+   "objects": [
+    "7071"
+   ],
+   "offsets": [
+    -7
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00014",
+   "rows": 12,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 2.1769318279661016,
+   "q_fit_au": 0.366851753297846,
+   "v_inf_kms": 53.348653858428975,
+   "rms_arcsec": 0.8511462970694358,
+   "free_fit_chi2_dof": 2.683148218574119,
+   "bound_fit_chi2_dof": 204.9243060424673,
+   "n_stations": 3,
+   "provisional": true,
+   "objects": [
+    "7075"
+   ],
+   "offsets": [
+    -12
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00015",
+   "rows": 12,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.48551471124517315,
+   "q_fit_au": 1.2620964790286096,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.9245355410928179,
+   "free_fit_chi2_dof": 3.1657998768288502,
+   "bound_fit_chi2_dof": 3.1657998768288502,
+   "n_stations": 2,
+   "provisional": true,
+   "objects": [
+    "4469"
+   ],
+   "offsets": [
+    10
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00019",
+   "rows": 11,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 2.1971657561316538,
+   "q_fit_au": 0.9634082796334162,
+   "v_inf_kms": 33.202062804471474,
+   "rms_arcsec": 0.17006193075426215,
+   "free_fit_chi2_dof": 0.11046238305921596,
+   "bound_fit_chi2_dof": 7.008768803668697,
+   "n_stations": 1,
+   "provisional": true,
+   "objects": [
+    "6696"
+   ],
+   "offsets": [
+    14
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00022",
+   "rows": 10,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 3.3100502898006674,
+   "q_fit_au": 1.024359072421924,
+   "v_inf_kms": 44.72781873775801,
+   "rms_arcsec": 0.5341878754196063,
+   "free_fit_chi2_dof": 1.1323678025607653,
+   "bound_fit_chi2_dof": 8.13521471154056,
+   "n_stations": 1,
+   "provisional": true,
+   "objects": [
+    "5487"
+   ],
+   "offsets": [
+    7
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00023",
+   "rows": 10,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.6985409867642751,
+   "q_fit_au": 0.931395490761685,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.7485322573179047,
+   "free_fit_chi2_dof": 2.2234148422438014,
+   "bound_fit_chi2_dof": 2.2234148422438014,
+   "n_stations": 2,
+   "provisional": true,
+   "objects": [
+    "4973"
+   ],
+   "offsets": [
+    13
+   ],
+   "verdict": "copy"
+  }
+ ]
+}

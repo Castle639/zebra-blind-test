@@ -1,0 +1,16 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 200 OK
+Date: Wed, 28 Oct 2026 20:12:59 GMT
+Server: Apache
+Last-Modified: Wed, 28 Oct 2026 19:35:08 GMT
+ETag: "7d30faf-65eeba9233c91"
+Accept-Ranges: bytes
+Content-Length: 131272623
+Access-Control-Allow-Origin: *
+Accept-CH: Sec-CH-UA-Full-Version-List
+Critical-CH: Sec-CH-UA-Full-Version-List
+Vary: Sec-CH-UA-Full-Version-List
+Connection: close
+Content-Type: application/x-gzip
+

@@ -1,0 +1,46 @@
+{
+ "utc": "2026-10-28T20:31:06Z",
+ "t_end": 2461342.342338,
+ "window": 30.0,
+ "seed": 65,
+ "sources": {
+  "sample": [
+   "s1/sample.json",
+   "0a35efc9dab648e8aa75745d62211edc9c500a382d9689b6c3acb06d694c285a"
+  ],
+  "background": [
+   "raw/itf.txt.gz",
+   "e61a2fe56dfaba55ea5aa3734c77a0c8c7953479eb0eaa81d4d6fa6aebb53044"
+  ]
+ },
+ "counts": {
+  "planted_rows": 23270,
+  "background_rows_in_window": 56647,
+  "background_rows_kept": 56647,
+  "background_rows_equal_to_planted": 0,
+  "blind_rows": 79917,
+  "null_rows": 78511,
+  "null_tracklets_left_out": 382,
+  "tracklets_planted": 6572,
+  "tracklets_background": 17335,
+  "objects_with_rows": 696,
+  "findable": {
+   "Distant": 59,
+   "Hilda": 12,
+   "MBA": 39,
+   "NEO": 264,
+   "Trojan": 9,
+   "comet": 53,
+   "interstellar": 0,
+   "other": 19,
+   "all": 455
+  }
+ },
+ "outputs": {
+  "blind.obs80": "c67a33f742e4899b9d1f8803098c7927c0a1b094c35def51b502e8ef4b6746be",
+  "blind.csv": "7beeb9ab54720e9eec707f396a662a9a474b8fa1b6de5a750073e9f57cdac536",
+  "planted.obs80": "01f721d0987538d59c80bb8dfdf54af2ce7a6771c5231015bb998b54513c8b4b",
+  "null.obs80": "e3309fd731892ffd0f4c8badd5e40e474a1669c809b000d6f149ee25ca371c45",
+  "truth.json": "0d0297994bc900a0ee7134d242741b821a3e78abe8edaa1a26556689fa5cb0c3"
+ }
+}

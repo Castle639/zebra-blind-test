@@ -1,0 +1,25 @@
+{
+ "input": "blind.csv",
+ "links": 0,
+ "links_with_known": 0,
+ "pure": 0,
+ "mixed": 0,
+ "purity": null,
+ "unverified": 0,
+ "unknown_links": 0,
+ "findable": 1929,
+ "found": 0,
+ "completeness": 0.0,
+ "by_nights": {
+  "3-4 nights": {
+   "findable": 691,
+   "found": 0
+  },
+  "5+ nights": {
+   "findable": 1238,
+   "found": 0
+  }
+ },
+ "split_objects": 0,
+ "per_link": []
+}

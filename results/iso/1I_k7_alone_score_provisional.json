@@ -1,0 +1,71 @@
+{
+ "input": "1I_k7_alone.obs80",
+ "links": 0,
+ "detections_not_in_input": 0,
+ "links_with_planted": 0,
+ "pure": 0,
+ "mixed": 0,
+ "purity": null,
+ "background_only_links": 0,
+ "links_taking_background_tracklets": 0,
+ "background_tracklets_same_object": 0,
+ "completeness": {
+  "crowd": {
+   "findable": 0,
+   "found": 0,
+   "completeness": null,
+   "missed": []
+  },
+  "interstellar": {
+   "findable": 1,
+   "found": 0,
+   "completeness": 0.0,
+   "missed": [
+    "1I"
+   ]
+  },
+  "all": {
+   "findable": 1,
+   "found": 0,
+   "completeness": 0.0,
+   "missed": [
+    "1I"
+   ]
+  }
+ },
+ "by_nights": {
+  "3-4 nights": {
+   "findable": 0,
+   "found": 0
+  },
+  "5+ nights": {
+   "findable": 1,
+   "found": 0
+  }
+ },
+ "split_objects": 0,
+ "calendar_nights": {
+  "links_under_3": 0,
+  "planted_links_under_3": 0,
+  "findable": 1,
+  "found": 0
+ },
+ "accuracy": {
+  "5+ nights": {
+   "links": 0,
+   "median_dq_over_q": null,
+   "median_de": null
+  },
+  "3-4 nights": {
+   "links": 0,
+   "median_dq_over_q": null,
+   "median_de": null
+  }
+ },
+ "interstellar_flag": {
+  "bound_objects_pure_links": 0,
+  "bound_objects_flagged": [],
+  "interstellar_flagged": []
+ },
+ "per_link": []
+}

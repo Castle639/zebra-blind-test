@@ -1,0 +1,414 @@
+{
+ "input": "1I_k7_null.obs80",
+ "links": 18,
+ "detections_not_in_input": 0,
+ "copies": 17,
+ "false": 1,
+ "false_by_nights": {
+  "3": 1,
+  "4": 0
+ },
+ "false_provisional": 0,
+ "false_hyperbolic": 0,
+ "false_with_background": 0,
+ "per_link": [
+  {
+   "link": "Z00000",
+   "rows": 14,
+   "tracklets": 4,
+   "nights": 4,
+   "calendar_nights": 4,
+   "e_fit": 0.3938036380107903,
+   "q_fit_au": 1.2015861178252067,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.14198588224639652,
+   "free_fit_chi2_dof": 0.07127269459647129,
+   "bound_fit_chi2_dof": 0.07127269459647129,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "4990"
+   ],
+   "offsets": [
+    4
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00001",
+   "rows": 19,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 2,
+   "e_fit": 0.2981753524856999,
+   "q_fit_au": 0.7318497578310458,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.18434975761976724,
+   "free_fit_chi2_dof": 0.1121027481866097,
+   "bound_fit_chi2_dof": 0.1121027481866097,
+   "n_stations": 2,
+   "provisional": false,
+   "objects": [
+    "7087"
+   ],
+   "offsets": [
+    -8
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00002",
+   "rows": 18,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 2,
+   "e_fit": 0.3769093701530677,
+   "q_fit_au": 1.0816525111428983,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.4189031853445764,
+   "free_fit_chi2_dof": 0.584932928972775,
+   "bound_fit_chi2_dof": 0.584932928972775,
+   "n_stations": 2,
+   "provisional": false,
+   "objects": [
+    "7068"
+   ],
+   "offsets": [
+    -15
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00004",
+   "rows": 16,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.3629248025590479,
+   "q_fit_au": 1.6400164234888086,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.27359157616374113,
+   "free_fit_chi2_dof": 0.2559054719581544,
+   "bound_fit_chi2_dof": 0.2559054719581544,
+   "n_stations": 2,
+   "provisional": false,
+   "objects": [
+    "5424"
+   ],
+   "offsets": [
+    5
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00007",
+   "rows": 15,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.5235590215440494,
+   "q_fit_au": 0.35135565292020104,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.43216699972742967,
+   "free_fit_chi2_dof": 0.6485010960187784,
+   "bound_fit_chi2_dof": 0.6485010960187784,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "4988"
+   ],
+   "offsets": [
+    14
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00009",
+   "rows": 14,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.3363495790079037,
+   "q_fit_au": 0.7233294829296127,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.2226963238942967,
+   "free_fit_chi2_dof": 0.17533109531931035,
+   "bound_fit_chi2_dof": 0.17533109531931035,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "7087"
+   ],
+   "offsets": [
+    -6
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00011",
+   "rows": 14,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 2,
+   "e_fit": 0.38255717815631607,
+   "q_fit_au": 0.6395264769768604,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.3537827919023296,
+   "free_fit_chi2_dof": 0.44249285198154004,
+   "bound_fit_chi2_dof": 0.44249285198154004,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "7087"
+   ],
+   "offsets": [
+    -12
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00013",
+   "rows": 12,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.8619212168745636,
+   "q_fit_au": 1.2666081590819567,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.20275364305054194,
+   "free_fit_chi2_dof": 0.15225570285283918,
+   "bound_fit_chi2_dof": 0.15225570285283918,
+   "n_stations": 2,
+   "provisional": false,
+   "objects": [
+    "2091"
+   ],
+   "offsets": [
+    8
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00014",
+   "rows": 12,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.3810768249808925,
+   "q_fit_au": 0.6012020108338496,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.24110990686732753,
+   "free_fit_chi2_dof": 0.2153110636650791,
+   "bound_fit_chi2_dof": 0.2153110636650791,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "7088"
+   ],
+   "offsets": [
+    5
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00019",
+   "rows": 11,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.860085324101115,
+   "q_fit_au": 1.1784834096084207,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.03690424616619401,
+   "free_fit_chi2_dof": 0.005201790706960244,
+   "bound_fit_chi2_dof": 0.005201790706960244,
+   "n_stations": 1,
+   "provisional": false,
+   "objects": [
+    "5380"
+   ],
+   "offsets": [
+    8
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00020",
+   "rows": 11,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.620018649162721,
+   "q_fit_au": 1.7460637618877592,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.1569758713905854,
+   "free_fit_chi2_dof": 0.0941165507594339,
+   "bound_fit_chi2_dof": 0.0941165507594339,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "655"
+   ],
+   "offsets": [
+    9
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00021",
+   "rows": 11,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.3876563092946368,
+   "q_fit_au": 1.1081634367890518,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.17155880591518177,
+   "free_fit_chi2_dof": 0.11241550790190037,
+   "bound_fit_chi2_dof": 0.11241550790190037,
+   "n_stations": 2,
+   "provisional": false,
+   "objects": [
+    "3299"
+   ],
+   "offsets": [
+    8
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00023",
+   "rows": 11,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.707015149295605,
+   "q_fit_au": 1.751971387096456,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.2428315800233193,
+   "free_fit_chi2_dof": 0.22522185375793022,
+   "bound_fit_chi2_dof": 0.22522185375793022,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "5305"
+   ],
+   "offsets": [
+    8
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00027",
+   "rows": 10,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.746196352540606,
+   "q_fit_au": 1.537807925454976,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.15799099314177356,
+   "free_fit_chi2_dof": 0.09905219807112675,
+   "bound_fit_chi2_dof": 0.09905219807112675,
+   "n_stations": 2,
+   "provisional": false,
+   "objects": [
+    "1755"
+   ],
+   "offsets": [
+    8
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00029",
+   "rows": 10,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.2402471315068594,
+   "q_fit_au": 1.782837381252516,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.2043191915487011,
+   "free_fit_chi2_dof": 0.16566004775839213,
+   "bound_fit_chi2_dof": 0.16566004775839213,
+   "n_stations": 1,
+   "provisional": false,
+   "objects": [
+    "5640"
+   ],
+   "offsets": [
+    3
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00031",
+   "rows": 10,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.6841967014749658,
+   "q_fit_au": 1.1236812351985301,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.3299814979418413,
+   "free_fit_chi2_dof": 0.43209440072992616,
+   "bound_fit_chi2_dof": 0.43209440072992616,
+   "n_stations": 1,
+   "provisional": false,
+   "objects": [
+    "5548",
+    "6724"
+   ],
+   "offsets": [
+    -4,
+    11
+   ],
+   "verdict": "false"
+  },
+  {
+   "link": "Z00032",
+   "rows": 10,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.3700123686195797,
+   "q_fit_au": 1.204556730167906,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.4368525609406349,
+   "free_fit_chi2_dof": 0.7573022222237744,
+   "bound_fit_chi2_dof": 0.7573022222237744,
+   "n_stations": 3,
+   "provisional": false,
+   "objects": [
+    "4968"
+   ],
+   "offsets": [
+    5
+   ],
+   "verdict": "copy"
+  },
+  {
+   "link": "Z00034",
+   "rows": 9,
+   "tracklets": 3,
+   "nights": 3,
+   "calendar_nights": 3,
+   "e_fit": 0.4099853608119017,
+   "q_fit_au": 1.9559597823063941,
+   "v_inf_kms": null,
+   "rms_arcsec": 0.12930952611987862,
+   "free_fit_chi2_dof": 0.06967063977228156,
+   "bound_fit_chi2_dof": 0.06967063977228156,
+   "n_stations": 1,
+   "provisional": false,
+   "objects": [
+    "5482"
+   ],
+   "offsets": [
+    10
+   ],
+   "verdict": "copy"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "seed": 65,
+ "max_sources": 4,
+ "pull_provenance": [
+  {
+   "utc": "2026-10-28T21:02:45Z",
+   "url": "https://tap.alerce.online/tap/sync",
+   "query": "SELECT g.measurement_id, g.oid, g.mjd, g.ra, g.dec, g.band FROM alerce_tap.detection g WHERE g.sid=2 AND g.mjd >= 61206.000000 AND g.mjd < 61236.000000 AND g.ra >= 330.0 AND g.ra < 337.5 AND g.dec >= -20.0 AND g.dec < -15.0",
+   "file": "sso.csv",
+   "bytes": 1273092,
+   "sha256": "5b3079d30d95a37db7263388a992138e8b035ad0d9e5959f14c759c65d923dd7",
+   "rows": 13239,
+   "seconds": 82.4
+  },
+  {
+   "utc": "2026-10-28T21:03:28Z",
+   "url": "https://tap.alerce.online/tap/sync",
+   "query": "SELECT g.measurement_id, g.oid, g.mjd, g.ra, g.dec, g.band FROM alerce_tap.detection g WHERE g.sid=1 AND g.mjd >= 61206.000000 AND g.mjd < 61236.000000 AND g.ra >= 330.0 AND g.ra < 337.5 AND g.dec >= -20.0 AND g.dec < -15.0",
+   "file": "dia.csv",
+   "bytes": 7625847,
+   "sha256": "6bc8cc3cf69fbb52cb20c593a44f920b05f7866b254c37f3c5b96c3fd3b7c8de",
+   "rows": 78492,
+   "seconds": 42.9
+  },
+  {
+   "utc": "2026-10-28T21:03:31Z",
+   "url": "https://tap.alerce.online/tap/sync",
+   "query": "SELECT g.oid, g.ndiasources, g.firstdiasourcemjdtai, g.lastdiasourcemjdtai FROM alerce_tap.lsst_dia_object g WHERE g.ra >= 329.95 AND g.ra < 337.55 AND g.dec >= -20.05 AND g.dec < -14.95",
+   "file": "diaobj.csv",
+   "bytes": 1150809,
+   "sha256": "4352a6d4b6434d41d59d2ff4660692efa598065e332455fd75e29c6653afc637",
+   "rows": 47941,
+   "seconds": 2.6
+  }
+ ],
+ "counts": {
+  "sso_rows": 13239,
+  "dia_rows_all": 78492,
+  "dia_rows_kept": 65407,
+  "rows": 78646,
+  "nights": 6,
+  "known_objects": 2744,
+  "findable_2plus_on_3plus_nights": 842
+ },
+ "outputs": {
+  "blind.csv": "98aafe01534e08642d9d4fd84ce60e471c5cf4c1c2d3f8dedac25c58bd6da1c1",
+  "null.csv": "61f99e51098184f68aea3832633c4197dd1dacb7dae50c314f797dcc36fde84e",
+  "truth.json": "6bb7a91dcfbef730d31a750d94d465a98d9c53585ba07b9f3705e4a31921b015"
+ }
+}

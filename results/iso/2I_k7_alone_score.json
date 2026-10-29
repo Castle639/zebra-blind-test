@@ -1,0 +1,96 @@
+{
+ "input": "2I_k7_alone.obs80",
+ "links": 1,
+ "detections_not_in_input": 0,
+ "links_with_planted": 1,
+ "pure": 1,
+ "mixed": 0,
+ "purity": 1.0,
+ "background_only_links": 0,
+ "links_taking_background_tracklets": 0,
+ "background_tracklets_same_object": 0,
+ "completeness": {
+  "crowd": {
+   "findable": 0,
+   "found": 0,
+   "completeness": null,
+   "missed": []
+  },
+  "interstellar": {
+   "findable": 1,
+   "found": 1,
+   "completeness": 1.0,
+   "missed": []
+  },
+  "all": {
+   "findable": 1,
+   "found": 1,
+   "completeness": 1.0,
+   "missed": []
+  }
+ },
+ "by_nights": {
+  "3-4 nights": {
+   "findable": 1,
+   "found": 1
+  },
+  "5+ nights": {
+   "findable": 0,
+   "found": 0
+  }
+ },
+ "split_objects": 0,
+ "calendar_nights": {
+  "links_under_3": 0,
+  "planted_links_under_3": 0,
+  "findable": 1,
+  "found": 1
+ },
+ "accuracy": {
+  "5+ nights": {
+   "links": 0,
+   "median_dq_over_q": null,
+   "median_de": null
+  },
+  "3-4 nights": {
+   "links": 0,
+   "median_dq_over_q": null,
+   "median_de": null
+  }
+ },
+ "interstellar_flag": {
+  "bound_objects_pure_links": 0,
+  "bound_objects_flagged": [],
+  "interstellar_flagged": [
+   "2I"
+  ]
+ },
+ "per_link": [
+  {
+   "link": "Z00000",
+   "rows": 29,
+   "tracklets": 9,
+   "nights": 4,
+   "calendar_nights": 4,
+   "e_fit": 3.4626663368404462,
+   "q_fit_au": 2.0459293912350467,
+   "v_inf_kms": 32.67763197601987,
+   "rms_arcsec": 0.575474176827768,
+   "free_fit_chi2_dof": 1.0260625339393508,
+   "bound_fit_chi2_dof": 1.0188198659738457,
+   "n_stations": 6,
+   "provisional": false,
+   "objects": [
+    0
+   ],
+   "classes": [
+    "interstellar"
+   ],
+   "planted_tracklets": 9,
+   "background_tracklets": 0,
+   "background_verdict": {},
+   "verdict": "pure",
+   "interstellar_flag": true
+  }
+ ]
+}
